@@ -76,3 +76,6 @@ export const validateRequest = cache(
     return result;
   },
 );
+
+
+// TODO: At 1:10:25 in video for starting up

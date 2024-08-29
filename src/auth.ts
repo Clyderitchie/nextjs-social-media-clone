@@ -11,4 +11,28 @@ export const lucia = new Lucia(adapter, {
       secure: process.env.NODE_ENV === "production",
     },
   },
-});
+  getUserAttributes(databaseUserAttributes) {
+    return {
+      id: databaseUserAttributes.id,
+      username: databaseUserAttributes.username,
+      displayName: databaseUserAttributes.displayName,
+      avatarUrl: databaseUserAttributes.avatarUrl,
+      googleId: databaseUserAttributes.googleId,
+    };
+  },
+}); // This is returning what to return to the front end. Fields are defined below in interface Database/userAttributes and prisma.schema
+
+declare module "lucia" {
+  interface Register {
+    Lucia: typeof lucia;
+    DatabaseUserAttributes: DatabaseUserAttributes;
+  }
+}
+
+interface DatabaseUserAttributes {
+  id: string;
+  username: string;
+  displayName: string;
+  avatarUrl: string | null;
+  googleId: string | null;
+}

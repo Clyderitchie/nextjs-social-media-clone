@@ -15,7 +15,7 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1(@prisma/client@5.19.0(prisma@5.19.0))(lucia@3.2.0)
       '@prisma/client':
-        specifier: ^5.16.1
+        specifier: ^5.19.0
         version: 5.19.0(prisma@5.19.0)
       '@radix-ui/react-dialog':
         specifier: ^1.1.1
@@ -39,28 +39,28 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.4)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@tanstack/react-query':
-        specifier: ^5.50.1
+        specifier: ^5.52.2
         version: 5.52.2(react@19.0.0-rc-f994737d14-20240522)
       '@tanstack/react-query-devtools':
-        specifier: ^5.50.1
+        specifier: ^5.52.2
         version: 5.52.2(@tanstack/react-query@5.52.2(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@tiptap/extension-placeholder':
-        specifier: ^2.4.0
+        specifier: ^2.6.6
         version: 2.6.6(@tiptap/core@2.6.6(@tiptap/pm@2.6.6))(@tiptap/pm@2.6.6)
       '@tiptap/pm':
-        specifier: ^2.4.0
+        specifier: ^2.6.6
         version: 2.6.6
       '@tiptap/react':
-        specifier: ^2.4.0
+        specifier: ^2.6.6
         version: 2.6.6(@tiptap/core@2.6.6(@tiptap/pm@2.6.6))(@tiptap/pm@2.6.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@tiptap/starter-kit':
-        specifier: ^2.4.0
+        specifier: ^2.6.6
         version: 2.6.6
       '@uploadthing/react':
         specifier: ^6.7.2
         version: 6.7.2(next@15.0.0-rc.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(uploadthing@6.13.2(next@15.0.0-rc.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(tailwindcss@3.4.10))
       arctic:
-        specifier: ^1.9.1
+        specifier: ^1.9.2
         version: 1.9.2
       class-variance-authority:
         specifier: ^0.7.0
@@ -72,7 +72,7 @@ importers:
         specifier: ^3.6.0
         version: 3.6.0
       ky:
-        specifier: ^1.4.0
+        specifier: ^1.7.1
         version: 1.7.1
       lucia:
         specifier: ^3.2.0
@@ -87,7 +87,7 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       prisma:
-        specifier: ^5.16.1
+        specifier: ^5.19.0
         version: 5.19.0
       react:
         specifier: 19.0.0-rc-f994737d14-20240522
@@ -99,25 +99,25 @@ importers:
         specifier: 19.0.0-rc-f994737d14-20240522
         version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
       react-hook-form:
-        specifier: ^7.52.1
+        specifier: ^7.53.0
         version: 7.53.0(react@19.0.0-rc-f994737d14-20240522)
       react-image-file-resizer:
         specifier: ^0.4.8
         version: 0.4.8
       react-intersection-observer:
-        specifier: ^9.10.3
+        specifier: ^9.13.0
         version: 9.13.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       react-linkify-it:
         specifier: ^1.0.8
         version: 1.0.8(react@19.0.0-rc-f994737d14-20240522)
       stream-chat:
-        specifier: ^8.37.0
+        specifier: ^8.39.0
         version: 8.39.0
       stream-chat-react:
-        specifier: ^11.23.0
+        specifier: ^11.23.8
         version: 11.23.8(@types/react@18.3.4)(jquery@3.7.1)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(stream-chat@8.39.0)(ws@7.5.10)
       tailwind-merge:
-        specifier: ^2.4.0
+        specifier: ^2.5.2
         version: 2.5.2
       tailwindcss-animate:
         specifier: ^1.0.7
@@ -151,10 +151,10 @@ importers:
         specifier: ^8
         version: 8.4.41
       prettier:
-        specifier: ^3.3.2
+        specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.5
+        specifier: ^0.6.6
         version: 0.6.6(prettier@3.3.3)
       tailwindcss:
         specifier: ^3.4.1

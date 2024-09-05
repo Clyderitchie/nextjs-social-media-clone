@@ -1,6 +1,6 @@
 // In Next.Js a 'page.tsx' file creates a page under the url of the folder system you are in
 // Since Auth is in () it will not show up in the url. But if wasn't it would look like this.
-// /auth/signup at the end of the url and where these page would render
+// /signup at the end of the url and where these page would render
 // Sign up form must be in a different file. This is because THIS file is a server side render.
 // It is smart to render as MUCH as you can on server side rather then client side render
 

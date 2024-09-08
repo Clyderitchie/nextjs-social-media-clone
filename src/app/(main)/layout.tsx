@@ -10,9 +10,9 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const session = await validateRequest();
+  const session = await validateRequest(); // Fetches Session 
 
-  if (!session.user) redirect("/login");
+  if (!session.user) redirect("/login"); // Checks if user is logged in
 
-  return <SessionProvider value={session}>{children}</SessionProvider>;
+  return <SessionProvider value={session}>{children}</SessionProvider>; // Makes Sessions content available to all children so you do not have to fetch there for it.
 }

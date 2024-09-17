@@ -1,28 +1,20 @@
 import PostEditor from "@/components/posts/editor/PostEditor";
 import Post from "@/components/posts/Post";
 import prisma from "@/lib/prisma";
+import { postDataInclude } from "@/lib/types";
 
 export default async function Home() {
   const posts = await prisma.post.findMany({
-    include: {
-      //Prisma way of doing a JOIN for the schema. User is the model and select is the data we want to show in the UI/Front End
-      user: {
-        select: {
-          username: true,
-          displayName: true,
-          avatarUrl: true,
-        },
-      },
-    },
+    include: postDataInclude,
     orderBy: { createdAt: "desc" },
   });
   return (
     // Main class below is responsible for setting background color for the Post screen section
-    <main className="h=[200vh] w-full  bg-red-50">
-      <div className="w-full">
+    <main className="w-full min-w-0">
+      <div className="w-full min-w-0 space-y-5">
         <PostEditor />
         {posts.map((post) => {
-          console.log(post); // This will log each post in the console
+          // console.log("Posts render front end:", post)
           return <Post key={post.id} post={post} />;
         })}
       </div>
